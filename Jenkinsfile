@@ -1,8 +1,8 @@
 pipeline {
     agent any
     tools {
-        maven 'Maven-3.9.6'
-        jdk 'JDK-21'
+        maven 'MAVEN-3.8.7'  // Terminal aur Jenkins me jo Maven hai
+        jdk 'JDK-21'         // Terminal aur Jenkins me jo JDK hai
     }
     stages {
         stage('Checkout') {
